@@ -1,0 +1,97 @@
+/* Template: PHP Blog Template with comment system
+Author Name: Alidu Latif
+Author Email: alidubakpatalatif@gmail.com
+*/
+
+/*global styles */
+body{
+    margin-top: 100px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+.profile{
+    position: absolute;
+    right: 50px;
+}
+
+@media (max-width: 979px) {
+    .profile{
+        position: initial;
+    }
+}
+
+/*page header styles*/
+
+.page-header{
+    padding-top: 20px;
+}
+.huge{
+    font-size: 40px;
+    line-height: normal;
+}
+.card-green a{
+color: #5cb85c;
+}
+.card-green a:hover{
+    color: #3d8b3d;
+}
+
+/*admin profile styles*/
+
+.card-body{
+    border-radius: 5px;
+}
+.thumb-info{
+    position: relative;
+bottom: 100px;
+}
+
+.thumb-info .card-text.info-title{
+    background-color: darkslategrey;
+    color: white;
+    font-size: 25px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 10px;
+}
+.thumb-info .card-text.info-type{
+    background-color: #3d8b3d;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.mb-md{
+    margin-bottom: 15px;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+hr.dotted{
+    height: 0;
+    border-bottom: 1px dotted #ddd;
+}
+hr.short{
+    margin: 11px 0 11px 0;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    margin: 22px 0 22px 0;
+}
+nav.navbar{
+    background-color: rgb(23, 23, 29);
+    padding: 20px 0 30px 10px;
+}
+nav .navbar-brand, .top-nav a{
+    color: white;
+}
+.dropdown-menu.drops a{
+    background-color: rgb(23, 23, 29); 
+}
+.dropdown-menu.drops a:hover{
+    color: white;
+    background-color: darkgrey;
+}
